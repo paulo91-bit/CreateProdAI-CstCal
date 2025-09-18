@@ -103,6 +103,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+provider_costs.json
 
 # Spyder project settings
 .spyderproject

@@ -195,7 +195,7 @@ def generate_product(req: func.HttpRequest) -> func.HttpResponse:
 
         # --- NEW: invoke Logic App endpoint with product + token usage payload ---
         try:
-            logic_app_url = "https://prod-02.westus2.logic.azure.com:443/workflows/17d39412c2924ea78881b1cae2bdb6ba/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=XoMM_Yz75hzUBOVxutbxm08Ja9fPyCdHMwSVpEPWafE"
+            logic_app_url = ""
             logic_payload = {
                 "productName": result_json.get("productName"),
                 "productDescription": result_json.get("productDescription"),
@@ -353,7 +353,7 @@ def calculate_and_report_costs(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Encryption failed: {str(e)}", status_code=500)
 
     try:
-        endpoint_url = "https://dev.maisy365.com/admin/creditUsed"
+        endpoint_url = ""
         headers = {"Content-Type": "application/json", "Signature": encrypted_payload_b64}
         response = requests.post(endpoint_url, headers=headers, json=cleartext_payload, timeout=30)
         response.raise_for_status()
