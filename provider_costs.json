@@ -1,0 +1,935 @@
+[
+    {
+        "id": "0dfd4794-bfdc-4444-bc05-284240c3969b",
+        "provider": "openai",
+        "model": "gpt-4.5-preview",
+        "input_token_cpm": 0.075,
+        "input_token_cpm_cached": 0.0375,
+        "output_token_cpm": 0.15,
+        "output_token_cpm_cached": 0.15,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": null
+    },
+    {
+        "id": "fabc2065-b2b7-4dc9-9611-17e6aed9b9f5",
+        "provider": "openai",
+        "model": "gpt-4o-audio-preview",
+        "input_token_cpm": 0.0025,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.01,
+        "output_token_cpm_cached": 0.01,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": null
+    },
+    {
+        "id": "3ec2d712-121f-4879-a08d-86be5939f2e3",
+        "provider": "openai",
+        "model": "gpt-4o-realtime-preview",
+        "input_token_cpm": 0.005,
+        "input_token_cpm_cached": 0.0025,
+        "output_token_cpm": 0.02,
+        "output_token_cpm_cached": 0.02,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": null
+    },
+    {
+        "id": "f2e84426-9f66-460c-a2cf-e6de2922b331",
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "input_token_cpm": 0.00015,
+        "input_token_cpm_cached": 0.000075,
+        "output_token_cpm": 0.0006,
+        "output_token_cpm_cached": 0.0006,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": null
+    },
+    {
+        "id": "618c6669-d843-4360-9d17-a1bf912a83d4",
+        "provider": "openai",
+        "model": "gpt-4o-mini-audio-preview",
+        "input_token_cpm": 0.00015,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0006,
+        "output_token_cpm_cached": 0.0006,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": null
+    },
+    {
+        "id": "0d012147-3779-408f-9a31-ad4013428903",
+        "provider": "anthropic",
+        "model": "claude-3.7-sonnet",
+        "input_token_cpm": 0.003,
+        "input_token_cpm_cached": 0.0003,
+        "output_token_cpm": 0.015,
+        "output_token_cpm_cached": 0.015,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:31:11.692791+00:00",
+        "metadata": {
+            "tags": [
+                "anthropic",
+                "claude"
+            ],
+            "source": "estimated",
+            "release_date": "2024-12",
+            "context_window": 200000,
+            "tokens_per_sec": 275,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "8f05b46e-379a-42d4-87dd-e587c9b95b80",
+        "provider": "anthropic",
+        "model": "claude-3.5-sonnet",
+        "input_token_cpm": 0.003,
+        "input_token_cpm_cached": 0.0003,
+        "output_token_cpm": 0.015,
+        "output_token_cpm_cached": 0.015,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:31:11.692791+00:00",
+        "metadata": {
+            "tags": [
+                "anthropic",
+                "claude"
+            ],
+            "source": "estimated",
+            "release_date": "2024-09",
+            "context_window": 200000,
+            "tokens_per_sec": 275,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "8c99d0cd-ef90-4fa1-ab9f-4cbdbc1a7fa9",
+        "provider": "anthropic",
+        "model": "claude-3.5-haiku",
+        "input_token_cpm": 0.0008,
+        "input_token_cpm_cached": 0.00008,
+        "output_token_cpm": 0.004,
+        "output_token_cpm_cached": 0.004,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:31:11.692791+00:00",
+        "metadata": {
+            "tags": [
+                "anthropic",
+                "claude"
+            ],
+            "source": "estimated",
+            "release_date": "2024-09",
+            "context_window": 200000,
+            "tokens_per_sec": 300,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "00034184-06da-4a26-bd2b-e07032555b9b",
+        "provider": "anthropic",
+        "model": "claude-3-opus",
+        "input_token_cpm": 0.01875,
+        "input_token_cpm_cached": 0.0015,
+        "output_token_cpm": 0.075,
+        "output_token_cpm_cached": 0.075,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:31:11.692791+00:00",
+        "metadata": {
+            "tags": [
+                "anthropic",
+                "claude"
+            ],
+            "source": "estimated",
+            "release_date": "2024-12",
+            "context_window": 200000,
+            "tokens_per_sec": 150,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "b1e18ac3-b10a-4a01-87f9-3f0128b3abd5",
+        "provider": "anthropic",
+        "model": "claude-3-haiku",
+        "input_token_cpm": 0.00025,
+        "input_token_cpm_cached": 0.00003,
+        "output_token_cpm": 0.00125,
+        "output_token_cpm_cached": 0.00125,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:31:11.692791+00:00",
+        "metadata": {
+            "tags": [
+                "anthropic",
+                "claude"
+            ],
+            "source": "estimated",
+            "release_date": "2024-03",
+            "context_window": 200000,
+            "tokens_per_sec": 250,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "383b7167-0f13-44e3-bd72-e15c26f0768d",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "input_token_cpm": 0.0025,
+        "input_token_cpm_cached": 0.00125,
+        "output_token_cpm": 0.01,
+        "output_token_cpm_cached": 0.01,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-4o"
+            ],
+            "source": "openai-docs+community-benchmark",
+            "release_date": "2024-05",
+            "context_window": 128000,
+            "tokens_per_sec": 950,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "77f91143-cf6c-40b6-95d3-d2e8fd80c0e4",
+        "provider": "openai",
+        "model": "gpt-4-turbo",
+        "input_token_cpm": 0.01,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.03,
+        "output_token_cpm_cached": 0.03,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-4"
+            ],
+            "source": "openai-docs+benchmark",
+            "release_date": "2023-11",
+            "context_window": 128000,
+            "tokens_per_sec": 400,
+            "supports_caching": true
+        }
+    },
+    {
+        "id": "8b0fbcbb-4f50-4e79-8d59-0b3b2be85ab3",
+        "provider": "openai",
+        "model": "gpt-4",
+        "input_token_cpm": 0.03,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.06,
+        "output_token_cpm_cached": 0.06,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-4",
+                "legacy"
+            ],
+            "source": "openai-docs+community",
+            "release_date": "2023-03",
+            "context_window": 8192,
+            "tokens_per_sec": 75,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "7da5b3f3-b850-425e-bdd6-dddef8ee008d",
+        "provider": "openai",
+        "model": "gpt-4-32k",
+        "input_token_cpm": 0.06,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.12,
+        "output_token_cpm_cached": 0.12,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-4",
+                "legacy"
+            ],
+            "source": "openai-docs+community",
+            "release_date": "2023-04",
+            "context_window": 32768,
+            "tokens_per_sec": 60,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "fbb8a1b1-e2bc-4f30-adde-841426a303d1",
+        "provider": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_token_cpm": 0.0005,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0015,
+        "output_token_cpm_cached": 0.0015,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-3.5"
+            ],
+            "source": "openai-docs",
+            "release_date": "2023-11",
+            "context_window": 16385,
+            "tokens_per_sec": 400,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "dd1cb3df-295d-45a2-8ef5-36f76cd32108",
+        "provider": "openai",
+        "model": "gpt-3.5-turbo-16k",
+        "input_token_cpm": 0.003,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.004,
+        "output_token_cpm_cached": 0.004,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-3.5"
+            ],
+            "source": "openai-docs",
+            "release_date": "2023-06",
+            "context_window": 16385,
+            "tokens_per_sec": 400,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "a40b79be-cdce-4bff-b517-af0c6c310783",
+        "provider": "openai",
+        "model": "gpt-3.5-turbo-instruct",
+        "input_token_cpm": 0.0015,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.002,
+        "output_token_cpm_cached": 0.002,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:11:24.239204+00:00",
+        "metadata": {
+            "tags": [
+                "openai",
+                "gpt-3.5",
+                "instruct"
+            ],
+            "source": "openai-docs",
+            "release_date": "2023-08",
+            "context_window": 4096,
+            "tokens_per_sec": 275,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "56aa38f7-c17f-4739-945a-868bef6e1864",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "input_token_cpm": 0.00011,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00034,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:57:12.863782+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta",
+                "scout"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 131072,
+            "tokens_per_sec": 460,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "7a107a10-6e43-480d-8d78-8f959a592482",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "input_token_cpm": 0.0002,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0006,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T07:57:12.863782+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta",
+                "maverick"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 131072,
+            "tokens_per_sec": 240,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "299efa8e-f297-4e20-a2f7-5e18040ef245",
+        "provider": "groq",
+        "model": "deepseek-r1-distill-llama-70b",
+        "input_token_cpm": 0.00075,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00099,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:01:17.574426+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "deepseek",
+                "llama"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 275,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "1dea7af4-4616-454e-a454-289896930a7a",
+        "provider": "groq",
+        "model": "deepseek-r1-distill-qwen-32b",
+        "input_token_cpm": 0.00069,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00069,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:01:17.574426+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "deepseek",
+                "qwen"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 140,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "28b9919f-835d-4900-86af-d76d4914c5e5",
+        "provider": "groq",
+        "model": "qwen-2.5-32b",
+        "input_token_cpm": 0.00079,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00079,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:01:17.574426+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "alibaba",
+                "qwen"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 200,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "c10ebc34-1832-4858-ad22-ae0882ef4bd4",
+        "provider": "groq",
+        "model": "qwen-2.5-coder-32b",
+        "input_token_cpm": 0.00079,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00079,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:01:17.574426+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "alibaba",
+                "qwen",
+                "coder"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 390,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "8d0beb5b-a6f9-4785-bcb6-10862b194222",
+        "provider": "groq",
+        "model": "qwen-qwq-32b",
+        "input_token_cpm": 0.00029,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00039,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:01:17.574426+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "alibaba",
+                "qwen",
+                "preview"
+            ],
+            "source": "groq-official",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 400,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "06456180-9898-4c6c-a47c-79c35ec60935",
+        "provider": "groq",
+        "model": "llama-3.2-1b-preview",
+        "input_token_cpm": 0.00004,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00004,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 3100,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "1cf2bc4b-af37-4b0e-a09f-8a607dbc9eaf",
+        "provider": "groq",
+        "model": "llama-3.2-3b-preview",
+        "input_token_cpm": 0.00006,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00006,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 1600,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "cfc902c0-6334-42a3-ac12-ca811a90008e",
+        "provider": "groq",
+        "model": "llama-3.3-70b-versatile",
+        "input_token_cpm": 0.00059,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00079,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 275,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "2237ddf8-f6bf-486d-91f2-5ac257d66a7c",
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_token_cpm": 0.00005,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00008,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "tokens_per_sec": 750,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "01b8f40e-be00-4514-8de4-5ff2605379e2",
+        "provider": "groq",
+        "model": "llama-3-70b",
+        "input_token_cpm": 0.00059,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00079,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 8192,
+            "tokens_per_sec": 330,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "f621274f-8fe8-4fb2-bb6d-02bf81a2974a",
+        "provider": "groq",
+        "model": "llama-3-8b",
+        "input_token_cpm": 0.00005,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00008,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 8192,
+            "tokens_per_sec": 1250,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "ec032746-b2c4-4bfc-9fb3-5510e59b1fb6",
+        "provider": "groq",
+        "model": "llama-3.3-70b-specdec",
+        "input_token_cpm": 0.00059,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00099,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 8192,
+            "tokens_per_sec": 1600,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "499364b2-b8d8-4665-87fc-23c921a0768b",
+        "provider": "groq",
+        "model": "gemma2-9b-it",
+        "input_token_cpm": 0.0002,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0002,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "gemma",
+                "google"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 8192,
+            "tokens_per_sec": 500,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "58ed0b17-a932-4eb8-8fec-7fa19e11b017",
+        "provider": "groq",
+        "model": "llama-guard-3-8b",
+        "input_token_cpm": 0.0002,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0002,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta",
+                "guard"
+            ],
+            "model_type": "language",
+            "release_date": "2024-04",
+            "context_window": 8192,
+            "tokens_per_sec": 765,
+            "supports_caching": false
+        }
+    },
+    {
+        "id": "8d398393-7572-4fc4-b76c-f500ed08dd1b",
+        "provider": "groq",
+        "model": "whisper-large-v3",
+        "input_token_cpm": null,
+        "input_token_cpm_cached": null,
+        "output_token_cpm": null,
+        "output_token_cpm_cached": null,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "whisper",
+                "openai"
+            ],
+            "model_type": "asr",
+            "release_date": "2024-04",
+            "speed_factor": 189,
+            "price_per_hour": 0.111
+        }
+    },
+    {
+        "id": "7feba166-ade5-43b5-ba9b-0f36528a006a",
+        "provider": "groq",
+        "model": "whisper-large-v3-turbo",
+        "input_token_cpm": null,
+        "input_token_cpm_cached": null,
+        "output_token_cpm": null,
+        "output_token_cpm_cached": null,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "whisper",
+                "openai"
+            ],
+            "model_type": "asr",
+            "release_date": "2024-04",
+            "speed_factor": 216,
+            "price_per_hour": 0.04
+        }
+    },
+    {
+        "id": "a19b80ae-98f8-4055-a30c-13906bd686c3",
+        "provider": "groq",
+        "model": "distil-whisper-large-v3-en",
+        "input_token_cpm": null,
+        "input_token_cpm_cached": null,
+        "output_token_cpm": null,
+        "output_token_cpm_cached": null,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "whisper",
+                "huggingface"
+            ],
+            "model_type": "asr",
+            "release_date": "2024-04",
+            "speed_factor": 250,
+            "price_per_hour": 0.02
+        }
+    },
+    {
+        "id": "140f6ac8-b329-47b5-9510-8860a022a301",
+        "provider": "groq",
+        "model": "llama-3.2-11b-vision-preview",
+        "input_token_cpm": 0.00018,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.00018,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta",
+                "vision"
+            ],
+            "model_type": "vision",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "supports_caching": false,
+            "tokens_per_image": 6400
+        }
+    },
+    {
+        "id": "efbe9456-e15a-484b-ae25-5bd8f3b63564",
+        "provider": "groq",
+        "model": "llama-3.2-90b-vision-preview",
+        "input_token_cpm": 0.0009,
+        "input_token_cpm_cached": 0,
+        "output_token_cpm": 0.0009,
+        "output_token_cpm_cached": 0,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-14T08:12:45.404716+00:00",
+        "metadata": {
+            "tags": [
+                "groq",
+                "llama",
+                "meta",
+                "vision"
+            ],
+            "model_type": "vision",
+            "release_date": "2024-04",
+            "context_window": 128000,
+            "supports_caching": false,
+            "tokens_per_image": 6400
+        }
+    },
+    {
+        "id": "e60a15ef-69c5-42b2-a814-893f7038e806",
+        "provider": "buildship",
+        "model": "node-cost",
+        "input_token_cpm": null,
+        "input_token_cpm_cached": null,
+        "output_token_cpm": null,
+        "output_token_cpm_cached": null,
+        "cost_per_second": null,
+        "cost_per_node": 0.0001,
+        "is_active": true,
+        "last_updated": "2025-04-14T09:38:50.011483+00:00",
+        "metadata": {
+            "source": "https://buildship.com/pricing",
+            "credit_price": 0.0001,
+            "credit_bundle": "100,000 credits for $10",
+            "pricing_notes": "1 credit per node (first 3s), then +1 credit per second after that",
+            "excluded_nodes": [
+                "switch",
+                "branch",
+                "output",
+                "input",
+                "set variable",
+                "parallel",
+                "loop",
+                "repeat"
+            ]
+        }
+    },
+    {
+        "id": "09a58622-b430-4869-a1b7-a0ad92b6bed7",
+        "provider": "openai",
+        "model": "o4-mini",
+        "input_token_cpm": 0.0011,
+        "input_token_cpm_cached": 0.000275,
+        "output_token_cpm": 0.0044,
+        "output_token_cpm_cached": null,
+        "cost_per_second": null,
+        "cost_per_node": null,
+        "is_active": true,
+        "last_updated": "2025-04-21T13:21:44.544257+00:00",
+        "metadata": null
+    }
+]

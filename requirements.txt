@@ -1,0 +1,11 @@
+azure-functions
+requests
+pycryptodome
+azure-storage-blob
+psycopg2-binary
+python-dotenv
+openai
+docx2txt
+PyPDF2
+
+
